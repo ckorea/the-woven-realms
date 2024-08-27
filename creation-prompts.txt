@@ -1,0 +1,44 @@
+Creation Prompts for The Woven Realms Design Assets
+Logo and Branding
+
+Logo: "Create a logo that incorporates intertwining threads forming the letters 'WR' for Woven Realms. Use a color palette inspired by jade green, sky blue, and frost white."
+Typography: "Design a font pairing that blends elements of Korean hangeul, Chinese calligraphy, and Slavic runes, resulting in a unique and readable typeface for headers."
+
+Hero Images
+
+Sky Islands: "Illustrate floating islands in a golden sky, with pagoda-like structures and windmills. Include threads of the Loom connecting to other realms in the distance."
+Jade Empire: "Depict a vast landscape with misty mountains, bamboo forests, and a grand palace. Showcase magical jade artifacts and Loom threads weaving through the scene."
+Frost Reaches: "Create a snow-covered landscape with ice palaces and cozy, glowing hearths. Feature spirit-like forms emerging from the mist and Loom threads glowing against the snow."
+
+UI Elements
+
+Navigation Icons: "Design icons representing each realm - a cloud for Sky Islands, a jade piece for Jade Empire, and a snowflake for Frost Reaches. Ensure they work well at small sizes."
+Buttons: "Create button designs that look like small sections of the Loom. They should appear to tighten when hovered over and loosen when clicked."
+
+Character Art
+
+Sky Islander: "Portrait of a young wind singer with flowing robes, surrounded by musical notes that seem to control the air currents."
+Jade Empire Craft Mage: "Full-body design of a seasoned artisan surrounded by floating, glowing jade artifacts of their own creation."
+Frost Reach Hearth Mage: "Illustration of a warm, grandmotherly figure tending to a magical fire, with familial spirits gathered around her."
+
+Environment Art
+
+Floating Citadel: "Create a panoramic view of a majestic city in the clouds, with buildings connected by bridges of solidified wind and Loom threads."
+Eternal Palace: "Illustrate the heart of the Jade Empire - a sprawling palace complex with jade-inlaid walls, surrounded by carefully manicured gardens and mystical mist."
+Nexus Market: "Design a bustling marketplace where the Loom threads intersect, featuring stalls and goods from all three realms, with diverse characters trading and mingling."
+
+Magic System Icons
+
+Song Magic: "Create an icon of a swirling musical staff with notes that look like tiny clouds or wind currents."
+Craft Magic: "Design an icon featuring a hand molding a glowing piece of jade, with energy radiating outward."
+Hearth Magic: "Illustrate an icon of a stylized house or hearth with a warm, magical flame inside, surrounded by family symbols."
+
+Realm Maps
+"Design a map showing all three realms, with the Sky Islands floating above, the Jade Empire sprawling across the land, and the Frost Reaches in the far north. Illustrate the Loom as golden threads connecting key locations across the realms."
+Creature Designs
+
+Sky Beast: "Create a majestic, cloud-like creature with features reminiscent of Asian dragons, capable of flying between Sky Islands."
+Jade Guardian: "Design a living jade statue, part lion and part qilin, that protects the treasures of the Jade Empire."
+Frost Spirit: "Illustrate a ethereal, fox-like creature made of ice crystals and mist, known to guide lost travelers in the Frost Reaches."
+
+Remember to maintain consistency in style across all assets, blending elements from Korean, Chinese, and Slavic visual traditions. Use a cohesive color palette that represents all three realms while ensuring each asset is distinct and recognizable.
