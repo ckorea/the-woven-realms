@@ -1,0 +1,50 @@
+:root {
+  // Sky Islands
+  --sky-primary: #8A2BE2;    // Purple
+  --sky-secondary: #FF69B4;  // Pink
+
+  // Jade Empire
+  --jade-primary: #00A86B;   // Jade Green
+  --jade-secondary: #FFD700; // Gold
+
+  // Frost Reaches
+  --frost-primary: #87CEFA;  // Ice Blue
+  --frost-secondary: #8B0000; // Dark Red
+  --frost-tertiary: #FFFFFF; // White
+
+  // Loom
+  --loom-color: #A020F0;     // Purple (you can adjust this as needed)
+}
+
+// Sky Islands theme
+.sky-islands {
+  background: linear-gradient(to bottom right, var(--sky-primary), var(--sky-secondary));
+  color: white;
+}
+
+// Jade Empire theme
+.jade-empire {
+  background: linear-gradient(to bottom right, var(--jade-primary), var(--jade-secondary));
+  color: black;
+}
+
+// Frost Reaches theme
+.frost-reaches {
+  background: linear-gradient(to bottom right, var(--frost-primary), var(--frost-tertiary));
+  color: var(--frost-secondary);
+}
+
+// Loom theme
+.loom {
+  background: var(--loom-color);
+  background: repeating-linear-gradient(
+    45deg,
+    var(--sky-secondary),
+    var(--sky-secondary) 10px,
+    var(--jade-secondary) 10px,
+    var(--jade-secondary) 20px,
+    var(--frost-primary) 20px,
+    var(--frost-primary) 30px
+  );
+  color: white;
+}

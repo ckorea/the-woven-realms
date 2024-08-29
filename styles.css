@@ -1,8 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Cinzel&display=swap');
+
+:root {
+  /* Sky Islands */
+  --sky-primary: #8A2BE2;    /* Purple */
+  --sky-secondary: #FF69B4;  /* Pink */
+
+  /* Jade Empire */
+  --jade-primary: #00A86B;   /* Jade Green */
+  --jade-secondary: #FFD700; /* Gold */
+
+  /* Frost Reaches */
+  --frost-primary: #87CEFA;  /* Ice Blue */
+  --frost-secondary: #8B0000; /* Dark Red */
+  --frost-tertiary: #FFFFFF; /* White */
+
+  /* Loom */
+  --loom-color: #A020F0;     /* Purple */
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -14,9 +33,17 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, #e6f7ff, #fff0f5, #f0fff0);
+    background: linear-gradient(
+        135deg,
+        rgba(138, 43, 226, 0.1),  /* Sky Islands purple */
+        rgba(255, 105, 180, 0.1), /* Sky Islands pink */
+        rgba(0, 168, 107, 0.1),   /* Jade Empire green */
+        rgba(255, 215, 0, 0.1),   /* Jade Empire gold */
+        rgba(135, 206, 250, 0.1), /* Frost Reaches blue */
+        rgba(139, 0, 0, 0.1)      /* Frost Reaches dark red */
+    );
     z-index: -1;
-    animation: loom-shift 20s infinite alternate;
+    animation: loom-shift 30s infinite alternate;
 }
 
 @keyframes loom-shift {
@@ -57,15 +84,18 @@ nav {
 }
 
 .realm-button[data-realm="sky"] {
-    background-color: #87CEEB;
+    background: linear-gradient(to bottom right, var(--sky-primary), var(--sky-secondary));
+    color: white;
 }
 
 .realm-button[data-realm="jade"] {
-    background-color: #00A86B;
+    background: linear-gradient(to bottom right, var(--jade-primary), var(--jade-secondary));
+    color: black;
 }
 
 .realm-button[data-realm="frost"] {
-    background-color: #E0FFFF;
+    background: linear-gradient(to bottom right, var(--frost-primary), var(--frost-tertiary));
+    color: var(--frost-secondary);
 }
 
 .realm-button:hover {
@@ -90,11 +120,24 @@ main {
 
 .realm-section h2 {
     font-family: 'Cinzel', serif;
-    background-color: #2e8b57;
-    color: #fff;
     padding: 1rem;
     margin: 0;
     cursor: pointer;
+}
+
+.realm-section[data-realm="sky"] h2 {
+    background: linear-gradient(to right, var(--sky-primary), var(--sky-secondary));
+    color: white;
+}
+
+.realm-section[data-realm="jade"] h2 {
+    background: linear-gradient(to right, var(--jade-primary), var(--jade-secondary));
+    color: black;
+}
+
+.realm-section[data-realm="frost"] h2 {
+    background: linear-gradient(to right, var(--frost-primary), var(--frost-tertiary));
+    color: var(--frost-secondary);
 }
 
 .realm-section .content {
@@ -111,4 +154,63 @@ main {
 .realm-section.active {
     transform: scale(1.02);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Add these new styles at the end of your existing CSS file */
+
+.sky-islands-page {
+    background: linear-gradient(to bottom right, var(--sky-primary), var(--sky-secondary));
+    color: white;
+}
+
+.sky-islands-page .realm-section {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sky-islands-page .realm-section h2 {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.sky-islands-page .realm-button[data-realm="sky"] {
+    background: white;
+    color: var(--sky-primary);
+}
+
+.jade-empire-page {
+    background: linear-gradient(to bottom right, var(--jade-primary), var(--jade-secondary));
+    color: black;
+}
+
+.jade-empire-page .realm-section {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.jade-empire-page .realm-section h2 {
+    background: rgba(255, 255, 255, 0.3);
+    color: black;
+}
+
+.jade-empire-page .realm-button[data-realm="jade"] {
+    background: white;
+    color: var(--jade-primary);
+}
+
+.frost-reaches-page {
+    background: linear-gradient(to bottom right, var(--frost-primary), var(--frost-tertiary));
+    color: var(--frost-secondary);
+}
+
+.frost-reaches-page .realm-section {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.frost-reaches-page .realm-section h2 {
+    background: rgba(255, 255, 255, 0.3);
+    color: var(--frost-secondary);
+}
+
+.frost-reaches-page .realm-button[data-realm="frost"] {
+    background: white;
+    color: var(--frost-primary);
 }
